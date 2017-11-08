@@ -16,7 +16,7 @@ void dataProcessing(void){
 //Calls functions to pull data from mega/motor controller/IMU
 //Returns true if successful
 bool dataReciever(void) {
-	    return imuReciever() && motorReciever() && megaReciever();
+	return imuReciever() && motorReciever() && megaReciever();
 }
 
 //Recieves data from IMU
@@ -46,7 +46,7 @@ bool stateChange(void) {
 //sends control signal to motor controller and Mega
 //calls the 2 other methods
 bool controlDispatch(void) {
-	    return motorControlDispatch() && megaControlDispatch();
+	return motorControlDispatch() && megaControlDispatch();
 }
 
 //sends control signal to motor controller
