@@ -9,7 +9,7 @@ bool wirelessDataReciever(void){
 }
 
 //Filters control input and recieved data
-void dataProcessing(void){
+bool dataProcessing(void){
 
 }
 
